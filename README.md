@@ -1,2 +1,2 @@
 # docker-examples
-Various examples with [Docker](https://www.docker.com/)
+Various examples with [Docker](https://www.docker.com/).
