@@ -1,0 +1,19 @@
+{
+  "name": "example2",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "description": "A simple example with Node.js and Redis on Docker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ynlamy/docker-examples/docker-examples.git"
+  },
+  "author": "Yoann LAMY <ynlamy@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "ioredis": "^4.0.0"
+  }
+}
