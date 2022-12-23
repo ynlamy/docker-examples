@@ -1,4 +1,4 @@
-# example2
+# example3
 
 A simple example with Node.js and Redis on Docker Compose.
 
