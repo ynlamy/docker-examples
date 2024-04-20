@@ -8,7 +8,6 @@ A simple example with Node.js and Redis on Docker Compose.
 
 ```
 docker compose up -d
-docker compose ps
 
 docker compose ps
 docker compose images
