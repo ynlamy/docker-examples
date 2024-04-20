@@ -15,7 +15,7 @@ docker network create MyNetwork
 docker network connect MyNetwork redis
 docker inspect MyNetwork
 
-docker container run -d -p 8080:80 --network MyNetwork <MyName>/<MyImage:1.0.0
+docker container run -d -p 8080:80 --network MyNetwork <MyName>/<MyImage>:1.0.0
 docker ps
 docker logs <ID>
 
@@ -27,4 +27,6 @@ docker stop redis
 
 docker rm <ID>
 docker rm redis
+
+docker network remove MyNetwork
 ```
